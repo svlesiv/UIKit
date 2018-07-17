@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<!-- <link rel="stylesheet" href="css/uikit.min.css" />	 -->
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body>	
+	<!-- header -->	
+	<header role="banner">			
+		<nav role="navigation" class="uk-navbar-container uk-navbar-transparent" uk-navbar>						
+			<ul class="uk-navbar-nav uk-visible@s">
+				<li ><a href="index.html" class="uk-logo"><img src="img/logo.svg" alt="Svitlana Lesiv logo" class="logo"></a></li>							
+				<li><a class="uk-button-text" href="about.html" >About</a></li>
+				<li><a class="uk-button-text" href="contact.html">Contact</a></li>
+				<li><a class="uk-button-text" href="#">Portfolio</a>
+					<div class="uk-width-small" uk-dropdown="animation: uk-animation-slide-top-small; duration: 0.3s">
+						 <ul class="uk-nav uk-dropdown-nav">
+						 	<li><a class="uk-button-text" href="#">Web Design</a></li>
+							<li><a class="uk-button-text" href="#">Sculpting</a></li>
+							<li><a class="uk-button-text" href="#">Animation</a></li>
+							<li><a class="uk-button-text" href="#">Photo+</a></li>
+						 </ul>
+					</div>
+				</li>				
+			</ul>
+			<div class="uk-navbar-left uk-hidden@s">				
+				<a href="index.html"><img src="img/logo.svg" class="uk-logo" alt="Svitlana Lesiv logo" class="logo"></a>				
+			</div>
+			<div class="uk-navbar-right uk-hidden@s">				
+				<a class="uk-navbar-toggle" id="toggleIcon" uk-navbar-toggle-icon ><span class="sr-only">Menu</span></a>				
+			</div>
+		</nav>		
+	</header>
+		
+	<!-- image -->	
+	<div class="uk-background-cover uk-hidden@s uk-height-medium" style="background-image: url(img/dragon_fly_700.jpg);"><h1 uk-parallax="opacity: 0,1,1; y: 200,200,200; x: 50,50,50; scale: 1,1,1; viewport: 0.5;">Categories</h1></div>
+
+	<div class="uk-background-cover uk-visible@s uk-background-image@s uk-height-large" style="background-image: url(img/dragon_fly_1920.jpg);"> <h1 uk-parallax="opacity: 0,1,1; y: 500,500,500; x: 150,150,150; scale: 2,1,1; viewport: 0.5;">Categories</h1></div>	
+	
+	<!-- main content -->	
+	<main role="main" class="uk-container uk-margin-large-top">		
+		<div class="uk-child-width-1-3@m uk-child-width-1-2@s uk-grid-large" uk-grid uk-scrollspy="cls: uk-animation-fade; target: > section; delay: 500; repeat: true">	
+			<section class="home-link uk-text-center">
+				<a href="#">				
+					<img src="img/web_270.jpg" alt="web page" class="uk-hidden@s">
+					<img src="img/web_400.jpg" alt="web page" class="uk-visible@s">						  
+				</a>
+				<h2 >Web Design</h2>
+			</section>
+			<section class="home-link uk-text-center">
+				<a href="#">
+					<img src="img/3d_270.jpg" alt="3d model of Fantasy Creature" class="uk-hidden@s">
+					<img src="img/3d_400.jpg" alt="3d model of Fantasy Creature" class="uk-visible@s">			
+				</a>
+				<h2>3D Modeling</h2>
+			</section>
+			<section class="home-link uk-text-center">
+				<a href="#">
+					<img src="img/anim_270.jpg" alt="Vector graphic girl walking" class="uk-hidden@s">
+					<img src="img/anim_400.jpg" alt="Vector graphic girl walking" class="uk-visible@s">			
+				</a>
+				<h2>Animation</h2>
+			</section>			
+			<section class="home-link uk-text-center">
+				<a href="#">
+					<img src="img/rig_270.jpg" alt="Character rig structure" class="uk-hidden@s">
+					<img src="img/rig_400.jpg" alt="Character rig structure" class="uk-visible@s">				
+				</a>
+				<h2>Rigging</h2>
+			</section>
+			<section class="home-link uk-text-center">
+				<a href="#">
+					<img src="img/night_forest_2d_270.jpg" alt="Fantasy forest" class="uk-hidden@s">
+					<img src="img/night_forest_2d_400.jpg" alt="Fantasy forest" class="uk-visible@s">			
+				</a>
+				<h2>Photo+</h2>
+			</section>
+			<section class="home-link uk-text-center">
+				<a href="#">
+					<img src="img/logo_vector_270.jpg" alt="3d model of movie tape roll" class="uk-hidden@s">
+					<img src="img/logo_vector_400.jpg" alt="3d model of movie tape roll" class="uk-visible@s">	
+				</a>
+				<h2>Logos</h2>
+			</section>
+		</div>	
+	</main>	
+
+	<!-- footer -->			
+	<footer role="contentinfo" class="uk-text-right uk-margin-large-top uk-margin-bottom uk-margin-large-right">		
+		<p>&copy; Svitlana Lesiv</p>
+	</footer>
+		
+
+	<!-- off canvas nav bar -->
+	<div class="uk-offcanvas-content">
+		<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+	        <div class="uk-offcanvas-bar">
+	        	<ul class="uk-nav uk-nav-default">        								
+					<li><a class="uk-button-text" href="about.html">About</a></li>
+					<li><a class="uk-button-text" href="contact.html">Contact</a></li>
+					<li><a class="uk-button-text" href="#" >Web Design</a></li>
+					<li><a class="uk-button-text" href="#">Sculpting</a></li>
+					<li><a class="uk-button-text" href="#">Animation</a></li>
+					<li><a class="uk-button-text" href="#">Photo+</a></li>
+				</ul>					
+		  </div>
+		</div>
+	</div>
+
+	<script>
+		var toggleIcon = document.getElementById("toggleIcon");
+		toggleIcon.onclick = function(){
+			UIkit.offcanvas('#offcanvas-nav').toggle();
+		};			
+	</script>	
+</body>
+</html>

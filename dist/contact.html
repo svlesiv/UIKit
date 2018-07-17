@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contact</title>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/uikit.min.css" />
+	<link rel="stylesheet" href="css/portfolio.css">	
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>	
+</head>
+<body>
+	<header role="banner">			
+		<nav role="navigation" class="uk-navbar-container uk-navbar-transparent" uk-navbar>						
+			<ul class="uk-navbar-nav uk-visible@s">
+				<li ><a href="index.html" class="uk-logo"><img src="img/logo_white.svg" id="logo-img" alt="Svitlana Lesiv logo" class="logo"></a></li>							
+				<li><a class="uk-button-text" href="about.html" >About</a></li>
+				<li class="uk-active"><a class="uk-button-text" href="contact.html">Contact</a></li>
+				<li><a class="uk-button-text" href="#">Portfolio</a>
+					<div class="uk-width-small" uk-dropdown="animation: uk-animation-slide-top-small; duration: 0.3s">
+						 <ul class="uk-nav uk-dropdown-nav">
+						 	<li><a class="uk-button-text" href="#">Web Design</a></li>
+							<li><a class="uk-button-text" href="#">Sculpting</a></li>
+							<li><a class="uk-button-text" href="#">Animation</a></li>
+							<li><a class="uk-button-text" href="#">Photo+</a></li>
+						 </ul>
+					</div>
+				</li>				
+			</ul>	
+			<div class="uk-navbar-left uk-hidden@s">				
+				<a href="index.html"><img src="img/logo_white.svg" id="logo-img" class="uk-logo" alt="Svitlana Lesiv logo" class="logo"></a>				
+			</div>
+			<div class="uk-navbar-right uk-hidden@s">				
+				<a class="uk-navbar-toggle" id="toggleIcon" uk-navbar-toggle-icon><span class="sr-only">Menu</span></a>				
+			</div>
+		</nav>		
+	</header>
+
+	<div class="uk-container" uk-grid>
+		<main role="main" class="uk-width-3-5@m">
+			<h1 class="uk-margin-large-left">Feel free to contact me</h1>
+			<!-- Form -->
+			<form action="#" method="post" class=" uk-form-width-large  uk-margin-large-left">
+				<fieldset class="uk-fieldset">
+					<legend class="uk-legend">Your contact information</legend>
+
+					<!-- Name input-->
+					<div class="uk-margin">
+						<label class="uk-form-label" for="name">Name*</label> 
+						<!-- on this page skip link will not work as long as we have attribute autofocus in a form -->
+						<div class="uk-form-controls">	
+							<input class="uk-input" type="text" id="name" autofocus placeholder="enter your name" required>	
+						</div>
+					</div>
+
+					<!-- email input-->
+					<div class="uk-margin">			
+						<label class="uk-form-label" for="email">Email*</label>
+						<div class="uk-form-controls">	
+							<input class="uk-input" type="email" id="email" placeholder="enter your email" required>
+						</div>
+					</div>
+
+					<!-- subject input-->
+					<div class="uk-margin">				
+						<label class="uk-form-label" for="subject">Subject</label>
+						<div class="uk-form-controls">			
+							<select class="uk-select" name="subject" id="subject">	
+								<option value="" selected>Select one...</option>								
+								<option value="business">business</option>
+								<option value="tips and tricks">tips and tricks</option>
+								<option value="personal">personal</option>
+								<option value="other">other</option>						
+							</select>
+						</div>
+					</div>
+
+					<!-- phone input-->
+					<div class="uk-margin">
+						<label class="uk-form-label" for="phone">Phone Number</label>
+						<div class="uk-form-controls">
+							<input class="uk-input" type="tel" id="phone" placeholder="enter your phone">
+						</div>
+					</div>
+
+					<!-- website address-->
+					<div class="uk-margin">
+						<label class="uk-form-label" for="web">Website</label>
+						<div class="uk-form-controls">
+							<input  class="uk-input" type="url" id="web" placeholder="enter your website address">
+						</div>
+					</div>
+
+					<!-- message input-->
+					<div class="uk-margin">
+						<label class="uk-form-label" for="message">Message</label>
+						<div class="uk-form-controls"> 
+							<textarea class="uk-textarea" id="message" placeholder="enter your message here..." rows="5"></textarea>
+						</div>
+					</div>	
+					
+					<div class="uk-margin">
+						<button class="uk-button uk-button-text" type="submit">Send</button>
+					</div>				
+				</fieldset>
+			</form> <!-- end of form -->			
+		</main>
+		<aside class="uk-width-2-5@m">
+			<div class="uk-margin-large-left">
+				<h2 >Svitlana Lesiv</h2>
+				<p>Email: lesivsvitlana@gmail.com</p>
+				<p>Phone: <a href="tel:978-394-50-86">+1(978) 394-50-86</a></p>
+			</div>
+		</aside>
+	</div>
+		
+	<!-- footer -->			
+	<footer role="contentinfo" class="uk-text-right uk-margin-large-top uk-margin-bottom uk-margin-large-right">		
+		<p>&copy; Svitlana Lesiv</p>
+	</footer>
+		
+
+	<!-- off canvas nav bar -->
+	<div class="uk-offcanvas-content">
+		<div id="offcanvas-nav" uk-offcanvas="overlay: true">
+	        <div class="uk-offcanvas-bar">
+	        	<ul class="uk-nav uk-nav-default">        								
+					<li><a class="uk-button-text" href="about.html">About</a></li>
+					<li><a class="uk-button-text" href="contact.html">Contact</a></li>
+					<li><a class="uk-button-text" href="#" >Web Design</a></li>
+					<li><a class="uk-button-text" href="#">Sculpting</a></li>
+					<li><a class="uk-button-text" href="#">Animation</a></li>
+					<li><a class="uk-button-text" href="#">Photo+</a></li>
+				</ul>					
+		  </div>
+		</div>
+	</div>
+
+	<!-- toggle images in nav bar and color schema -->
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			// logo icon
+			$("#logo-img").mouseover(function() {
+				$(this).attr("src","img/logo.svg");  	
+			});
+			$(this).mouseout(function() {
+				$("#logo-img").attr("src","img/logo_white.svg");  	
+			});
+
+			var toggleIcon = document.getElementById("toggleIcon");
+			toggleIcon.onclick = function(){
+				UIkit.offcanvas('#offcanvas-nav').toggle();
+			};		
+		});
+	</script>		
+</body>
+</html>

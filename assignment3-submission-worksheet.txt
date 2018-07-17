@@ -1,0 +1,106 @@
+Your name: Svitlana Lesiv
+
+1. Provide a link to the first page of your website:
+http://svitlanalesiv.me/assignment3/dist/index.html
+
+My site looks the way I want on: PC
+
+With this browser: Chrome 
+
+UIKIT (70 points)
+
+2. Grid: provide an example of a section of your website that has grid incorporated with responsive features.
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+Line numbers: 47
+
+Modifier used: gutter modifiers
+HTML line numbers: 47
+
+3. Other Layout Structures
+The widget you used is: article.
+URL: http://svitlanalesiv.me/assignment3/dist/about.html
+HTML line numbers: 42
+
+4. Navigation bar
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML line numbers: 15, 100
+Widgets used: nav, navbar, visibility, offcanvas.
+
+5. Second navigational element
+The widget used is: dropdown.
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML line numbers: 21
+
+6. Styling: 3 instances
+Choose from: background, button, column.
+
+a. Choice 1: (background)
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML line numbers: 41
+
+b. Choice 2: (button)
+URL:http://svitlanalesiv.me/assignment3/dist/contact.html 
+HTML line numbers: 103
+
+c. Choice 3: (column)
+URL: http://svitlanalesiv.me/assignment3/dist/about.html
+HTML line numbers: 42
+
+7. Form
+URL: http://svitlanalesiv.me/assignment3/dist/contact.html
+HTML line numbers: 43
+
+1 example of form styling: width modifiers
+HTML line numbers: 43
+
+8. JavaScripty Widgets
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML line numbers: 47
+The widget is: scrollspy
+
+9. Sass variable #1: $global-font-family
+Partial file name: portfolio.scss
+Line number: 5
+
+Sass variable #2: $base-body-background
+Partial file name: portfolio.scss
+Line number: 7
+
+10: New style #1: .home-link
+Partial file name: portfolio.scss
+Line number: 61
+
+New style #2: form *:focus
+Partial file name: portfolio.scss
+Line number: 97
+
+11. Modified style #1: hook-form-legend()
+Partial file name: portfolio.scss
+Line number: 40
+
+Modified style #2: hook-dropdown()
+Partial file name: portfolio.scss
+Line number: 43
+
+COMPARISON EXERCISE (20 points)
+Please remember to turn in your paper as described in the assignment.
+
+ABOVE AND BEYOND (10 POINTS)
+Identify what you did for Above and Beyond. Provide any relevant HTML, CSS, Sass, or JavaScript line number(s) and explanation of what you did. How many points do you think this was worth, and why? You can do more than one thing if you want.
+
+1.modifications to the JavaScript widgets using JavaScript
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML: 117
+description: added script for toggling offcanvas navigation, by clicking on a button.
+
+2. use of the parallax 
+URL: http://svitlanalesiv.me/assignment3/dist/index.html
+HTML: 41, 43
+description: incorporated parallax to create an animated title, positioned over background.
+
+3. beyond the Sass requirements
+Partial file name: portfolio.scss
+description: added additional style modifications beyond requirements.
+
+How many points: undefined :)
+
