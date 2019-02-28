@@ -101,6 +101,3 @@ description: incorporated parallax to create an animated title, positioned over 
 3. beyond the Sass requirements
 Partial file name: portfolio.scss
 description: added additional style modifications beyond requirements.
-
-How many points: undefined :)
-
