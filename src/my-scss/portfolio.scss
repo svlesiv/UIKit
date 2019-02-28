@@ -22,28 +22,28 @@ $column-divider-rule-color:$global-primary-background;
 
 // 3. Custom mixin overwrites.
  @mixin hook-form-label(){
- 	color: $global-primary-background;
- 	font-size: 1.2em;
+   color: $global-primary-background;
+   font-size: 1.2em;
  }
 
  @mixin hook-form(){
- 	background-color: $base-body-background;
- 	border-bottom: 1px solid $global-primary-background;
- 	width:75%;
+   background-color: $base-body-background;
+   border-bottom: 1px solid $global-primary-background;
+   width:75%;
  }
 
  @mixin hook-form-focus(){
- 	background-color: $base-body-background;
- 	color: $base-body-color;   
+   background-color: $base-body-background;
+   color: $base-body-color;
  }
 
  @mixin hook-form-legend(){
- 	width:60%;
+   width:60%;
  }
 @mixin hook-dropdown(){
-	background-color: $base-body-background;
-	color:  $global-primary-background;
-	border: 1px solid $global-primary-background;
+  background-color: $base-body-background;
+  color:  $global-primary-background;
+  border: 1px solid $global-primary-background;
 }
 
 // 4. Import UIkit.
@@ -51,58 +51,58 @@ $column-divider-rule-color:$global-primary-background;
 
 
 // 5. Custom styles
-@media (max-width: $breakpoint-small) { 
+@media (max-width: $breakpoint-small) {
   .uk-form-width-large {
-	    width: 80%;
-	    min-width:300px;
-	}
+      width: 80%;
+      min-width:300px;
+  }
 }
 
 .home-link {
-	/*image transitions and transforms*/
-	transition: transform 100ms ease-out,
-		      	filter 50ms ease-out;
-	&:hover {
-		transform: translate(0, -1em) scale(1.05);
-		filter: brightness(0.7);
-	}
+  /*image transitions and transforms*/
+  transition: transform 100ms ease-out,
+            filter 50ms ease-out;
+  &:hover {
+    transform: translate(0, -1em) scale(1.05);
+    filter: brightness(0.7);
+  }
 }
 
-.uk-navbar-nav > li > .uk-button-text::before {  
-  bottom: 30px;   
+.uk-navbar-nav > li > .uk-button-text::before {
+  bottom: 30px;
 }
 .uk-fieldset {
     border: 1px solid $global-primary-background;
     padding:1em;
-    
+
 }
 .uk-height-large {
   height: 650px;
 }
 
 .divider{
-	border-bottom: 1px solid $global-primary-background;
+  border-bottom: 1px solid $global-primary-background;
 }
 
 ul:not([class="uk-navbar-nav"]) > li {
-	color: $global-primary-background;
+  color: $global-primary-background;
 }
 h1[uk-parallax]{
-	color: $base-body-background;
-	font-weight: 900;
-	font-size: 4.5em;
-	font-family:$global-font-family;
+  color: $base-body-background;
+  font-weight: 900;
+  font-size: 4.5em;
+  font-family:$global-font-family;
 }
 
 form *:focus {
-	outline: none;    
+  outline: none;
     box-shadow: 0 0 3px $global-primary-background;
     text-decoration:underline;
     text-decoration-skip: ink;
 }
 
 .logo{
-	width:3em;
+  width:3em;
 }
 
 /*-- getbootstrap.com -- .sr-only class  */
