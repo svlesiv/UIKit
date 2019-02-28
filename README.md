@@ -1,4 +1,4 @@
-# Sass-practice
+# UIKit
 This website was built using UIKit framework, and Sass for customizing the styling. 
 
 ![](./dist/img/uikit.gif)
